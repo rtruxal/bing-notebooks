@@ -1,25 +1,6 @@
  Bing Search API Jupyter Notebooks
 ==================================
 
-
-
-### Are You Using the Right Endpoint?
-
-In the following two URLs both work, but have **very different behavior**. In both, I'm searching the internet for kitten pictures.
-
-  A) `https://api.cognitive.microsoft.com/bing/v7.0/search?q=kittens&responseFilter=Images`   
-  
-  B) `https://api.cognitive.microsoft.com/bing/v7.0/images/search?q=kittens`  
-
-
-Note the `.../images/...` in B).
-
-
-In A), I'm searching for images via the **web endpoint**.  
-In B), I'm searching (without a type filter) via the dedicated **image endpoint**. 
-
-The web endpoint is more versitile, but the image endpoint will provide richer information about images.
-
 # Prerequisites
  - Python 3 (Written using python3.7)
    - w/ the `jupyter-notebook`, &  `requests` packages installed
@@ -48,4 +29,22 @@ $ jupyter notebook
 
 
 
+# Other/Misc  
 
+
+### Are You Using the Right Endpoint?
+
+The following two URLs both work, but have **very different behavior**. In both, I'm searching the internet for kitten pictures.
+
+  A) `https://api.cognitive.microsoft.com/bing/v7.0/search?q=kittens&responseFilter=Images`   
+  
+  B) `https://api.cognitive.microsoft.com/bing/v7.0/images/search?q=kittens`  
+
+
+Note the `.../images/...` in B).
+
+
+In A), I'm searching for images via the **web endpoint**.  
+In B), I'm searching (without a type filter) via the dedicated **image endpoint**. 
+
+The web endpoint is more versitile, but the image endpoint will provide richer information about images.
