@@ -5,9 +5,9 @@
  - Python 3 (Written using python3.7)
    - w/ the `jupyter-notebook`, &  `requests` packages installed
  - A Bing Search API V7 Trial Tier.
-   - For Web, News, Image, Video, or Entity search, you will need a free-tier (F0) "Bing Search v7" subscription. [!websearch-free-tier](img/websearch-free-tier.PNG)
+   - For Web, News, Image, Video, or Entity search, you will need a free-tier (F0) "Bing Search v7" subscription. 
    - For Spellcheck, Autocorrect, or Custom Search, you will need free-tier (F0) "Bing Spell Check v7," "Bing Autosuggest v7," & "Bing Custom Search" subscriptions respectively.   
-[!other-free-tiers](https://raw.githubusercontent.com/rtruxal/github-pics/master/bingdoc%20images/spell-auto-and-custom-free-tiers.png)
+
 
 
 # Setup:
